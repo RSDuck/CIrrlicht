@@ -5,7 +5,7 @@
 # Name of the executable created (.exe will be added automatically if necessary)
 Target := 01.HelloWorld
 # List of source files, separated by spaces
-Sources := main.c
+Sources := main.cpp
 # Path to Irrlicht directory, should contain include/ and lib/
 IrrlichtHome := ../../irrlicht
 # Path for the executable. Note that Irrlicht.dll should usually also be there for win32 systems

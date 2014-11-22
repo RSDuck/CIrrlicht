@@ -5,6 +5,13 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CIrrlicht", "CIrrlicht\CIrrlicht.vcxproj", "{296329A9-C70E-40BE-A0E0-067AFED0091E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "01.HelloWorld", "01.HelloWorld\01.HelloWorld.vcxproj", "{B8F69EA2-FBB2-40C4-A61F-B0EA6F5F1A43}"
+	ProjectSection(ProjectDependencies) = postProject
+		{296329A9-C70E-40BE-A0E0-067AFED0091E} = {296329A9-C70E-40BE-A0E0-067AFED0091E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "02.Quake3Map", "02.Quake3Map\02.Quake3Map.vcxproj", "{4958178D-8830-43A1-8B46-A67955119CCD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
@@ -15,6 +22,14 @@ Global
 		{296329A9-C70E-40BE-A0E0-067AFED0091E}.Debug|Win32.Build.0 = Debug|Win32
 		{296329A9-C70E-40BE-A0E0-067AFED0091E}.Release|Win32.ActiveCfg = Release|Win32
 		{296329A9-C70E-40BE-A0E0-067AFED0091E}.Release|Win32.Build.0 = Release|Win32
+		{B8F69EA2-FBB2-40C4-A61F-B0EA6F5F1A43}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B8F69EA2-FBB2-40C4-A61F-B0EA6F5F1A43}.Debug|Win32.Build.0 = Debug|Win32
+		{B8F69EA2-FBB2-40C4-A61F-B0EA6F5F1A43}.Release|Win32.ActiveCfg = Release|Win32
+		{B8F69EA2-FBB2-40C4-A61F-B0EA6F5F1A43}.Release|Win32.Build.0 = Release|Win32
+		{4958178D-8830-43A1-8B46-A67955119CCD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4958178D-8830-43A1-8B46-A67955119CCD}.Debug|Win32.Build.0 = Debug|Win32
+		{4958178D-8830-43A1-8B46-A67955119CCD}.Release|Win32.ActiveCfg = Release|Win32
+		{4958178D-8830-43A1-8B46-A67955119CCD}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
